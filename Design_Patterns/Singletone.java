@@ -1,4 +1,10 @@
-
+/*
+Singletone Pattern: only create one instance/object of a class
+steps: 
+1. create a (stingletone)class
+2. create an object of this class in it but it has to be private and static.
+3. create a getter function to this object (static).
+*/
 public class Counter {
 	private int c = 0;
 	private static Counter count = null;
